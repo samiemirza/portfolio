@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Machine Learning Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+			<header id="header">
+				<h1 id="logo"><a href="index.html"> Portfolio</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="no-sidebar.html">Projects</a></li>
+						<li><a href="left-sidebar.html">Experience</a></li>
+						<li><a href="right-sidebar.html">Creative</a></li>
+						<li><a href="about.html" class="button primary">About</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<!-- Main -->
+				<div id="main" class="wrapper style1">
+					<div class="container">
+						<header class="major">
+							<h2>Machine Learning Projects</h2>
+						</header>
+
+						<!-- Content -->
+						<section id="content" class="two-column">
+							<div class="column">
+								<a href="#" class="image fit"><img src="images/ml-p1.jpg" alt="" /></a>
+								<h3>Classification of Urdu News Articles</h3>
+								<p>
+									This project applies supervised machine learning to classify Urdu-language news articles into five categories: entertainment, business, sports, science-technology, and international. From 2,750 articles scraped from Urdu news websites, preprocessing included normalization, lemmatization, and tokenization.
+
+									Three models were evaluated: Multinomial Naive Bayes (MNB), Logistic Regression, and Neural Networks. MNB achieved 96.55% accuracy, Logistic Regression 95.27%, and the Neural Network outperformed both with 97.45%, using advanced modeling and dropout layers to prevent overfitting.
+
+									Performance was assessed through accuracy, precision, recall, and F1 scores, with confusion matrices highlighting misclassifications. The project showcases machine learning’s potential in underrepresented languages like Urdu while noting limitations such as reliance on traditional models and limited semantic understanding. </p>
+									
+								<ul class="actions">
+									<li><a href="mlurdu.html" class="button">Explore</a></li>
+									<li><a href="https://medium.com/@samie.ahmad2003/supervised-machine-learning-for-text-in-the-urdu-language-89e4613f0c08" class="button">Medium</a></li>
+                                    <li><a href="https://github.com/samiemirza/ML-urdu-classification" class="button">Github</a></li>
+								</ul>
+							</div>
+							<div class="column">
+								<a href="#" class="image fit"><img src="images/m2.jpg" alt="" /></a>
+								<h3>Nullam euismod, nisi vel consectetur elementum</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vel consectetur elementum, nulla mauris auctor quam, vel varius turpis libero vel sapien. Phasellus non ligula eget lorem sollicitudin porttitor. Curabitur tempus, nibh et fringilla gravida, erat ipsum vehicula dolor, vel luctus justo nisl in enim. Integer at massa sit amet magna tristique luctus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed bibendum erat eget dui dictum, ut placerat ligula consequat. Fusce aliquet, mi in mollis elementum, lorem nisi scelerisque orci, vitae pharetra metus est sed ligula.
+									Vivamus euismod facilisis lectus, in rhoncus eros pellentesque eget. Quisque vestibulum tristique orci, a aliquet velit cursus at. Nulla facilisi. Maecenas porttitor, magna quis fermentum cursus, magna erat aliquet purus, vel gravida orci nisl vel augue. Nam ut ipsum eget lorem bibendum facilisis. Praesent ultrices, ligula a hendrerit vulputate, metus nisl facilisis.</p>
+								<ul class="actions">
+									<li><a href="knn.html" class="button">Notebook</a></li>
+                                    <li><a href="https://github.com/samiemirza/ML-knn-rnn" class="button">Github</a></li>
+								</ul>
+							</div>
+						</section>
+						<br>
+						<section id="content" class="two-column">
+							<div class="column">
+								<a href="#" class="image fit"><img src="images/m4.png" alt="" /></a>
+								<h3>Neural Networks for Detecting Code Rot in Humanoids</h3>
+								<p>
+									This project develops a neural network to identify malfunctioning humanoid Guardians affected by "Code Rot". Using a dataset of 8,580 CT scan images labeled as infected or not, the binary classification model predicts Code Rot to ensure the safety of Earth Junior's inhabitants.
+
+									The model architecture includes fully connected layers with dropout and ReLU activations, optimized using binary cross-entropy loss and Adam optimizer. Data preprocessing involves image resizing, grayscale conversion, and normalization, with a 60:20:20 train-validation-test split. Training progress is tracked with accuracy and loss metrics.
+									
+									Achieving high accuracy, the model is evaluated through confusion matrices, classification reports, and ROC curves. Misclassified cases are analyzed to refine performance. The project demonstrates the effectiveness of neural networks in solving futuristic challenges. </p>
+									
+								<ul class="actions">
+									<li><a href="nn.html" class="button">Notebook</a></li>
+                                    <li><a href="https://github.com/samiemirza/ML-neural-one" class="button">Github</a></li>
+								</ul>
+							</div>
+							<div class="column">
+								<a href="#" class="image fit"><img src="images/m2.jpg" alt="" /></a>
+								<h3>Implementing and Evaluating KNN and RNN Classifiers</h3>
+								<p>This project focuses on implementing and evaluating K-Nearest Neighbors (KNN) and Radius Nearest Neighbors (RNN) classifiers using both manual implementation and `scikit-learn`.
+
+									The first part applies KNN to the MNIST dataset of handwritten digits, with data preprocessing and normalization. Two distance metrics—Euclidean and Manhattan—are used, and k-fold cross-validation determines the optimal k . Evaluation metrics include confusion matrices, accuracy, and macro-average F1 scores.
+									
+									The second part explores RNN on the Breast Cancer dataset to classify tumors as malignant or benign. RNN uses a radius-based approach to identify neighbors, with cross-validation conducted for varying radius values to optimize performance. Predictions on the test data highlight RNN's limitations for high-dimensional datasets like MNIST, emphasizing challenges such as the curse of dimensionality.</p>
+								<ul class="actions">
+									<li><a href="knn.html" class="button">Notebook</a></li>
+                                    <li><a href="https://github.com/samiemirza/ML-knn-rnn" class="button">Github</a></li>
+								</ul>
+							</div>
+						</section>
+						<br>
+						<section id="content" class="two-column">
+							<div class="column">
+								<a href="#" class="image fit"><img src="images/m3.jpg" alt="" /></a>
+								<h3>Human-Zombie Screening: Linear and Logistic Regression</h3>
+								<p>
+
+                                    This project centers on developing machine learning models for screening and classifying individuals based on their human-zombie score, using a dataset with features like height, weight, and activity levels.
+
+									The linear regression component predicts the human-zombie score as a continuous variable, implementing multivariate regression from scratch and using scikit-learn for comparisons. Techniques like gradient descent and regularization methods (Ridge, Lasso, and ElasticNet) are employed, with model performance evaluated through mean squared error.
+
+									The logistic regression part classifies individuals into categories: "Human," "Needs Further Testing," or "Zombie," based on thresholded scores. Implementations include a manual regularized logistic regression model and scikit-learn’s version. The project incorporates multiclass classification using the One-vs-All approach, with metrics such as accuracy, F1 score etc reported.
+									</p>
+									
+								<ul class="actions">
+									<li><a href="linear.html" class="button">Notebook 1</a></li>
+									<li><a href="logistic.html" class="button">Notebook 2</a></li>
+                                    <li><a href="https://github.com/samiemirza/ML-linear-logistic" class="button">Github</a></li>
+								</ul>
+							</div>
+							<div class="column">
+								<a href="#" class="image fit"><img src="images/m1.jpg" alt="" /></a>
+								<h3>Implementing and Evaluating Naive Bayes Classifiers</h3>
+								<p>
+
+                                    This project explores the implementation and evaluation of Naive Bayes classifiers for two datasets: a Golf dataset and the Tweet Evaluation dataset. The Golf dataset predicts whether golf will be played based on binary and categorical features, utilizing the Bernoulli Naive Bayes classifier. The Tweet Evaluation dataset performs sentiment analysis on tweets, classifying them into emotional categories using the Multinomial Naive Bayes classifier. 
+
+									The project includes both manual and `scikit-learn` implementations of Naive Bayes models, with detailed preprocessing steps such as one-hot encoding for the Golf dataset and text cleaning for the Tweet Evaluation dataset. Metrics like accuracy, precision, recall, and F1 score are reported for both, comparing their performance. The study emphasizes the strengths of each Naive Bayes variant, highlighting their applicability to different problem domains. </p>
+									
+								<ul class="actions">
+									<li><a href="naive.html" class="button">Notebook</a></li>
+                                    <li><a href="https://github.com/samiemirza/ML_naive_bayes" class="button">Github</a></li>
+								</ul>
+							</div>
+						</section>
+						
+					</div>
+				</div>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/samie-ahmad-b7676b216/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://www.instagram.com/samie_visuals/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://github.com/samiemirza" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.pinterest.com/samieahmad/" class="icon brands alt fa-pinterest"><span class="label">Pinterest</span></a></li>
+						<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Samie Ahmad. All rights reserved.</li>
+					</ul>
+				</footer>
+
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

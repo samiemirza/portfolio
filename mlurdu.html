@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Machine Learning Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+			<header id="header">
+				<h1 id="logo"><a href="index.html"> Portfolio</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="no-sidebar.html">Projects</a></li>
+						<li><a href="left-sidebar.html">Experience</a></li>
+						<li><a href="right-sidebar.html">Creative</a></li>
+						<li><a href="about.html" class="button primary">About</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<!-- Main -->
+				<div id="main" class="wrapper style1">
+					<div class="container">
+						<header class="major">
+							
+						</header>
+
+						<!-- Content -->
+                        <section id="content">
+                            <a href="#" class="image fit"><img src="images/ml-p12.jpg" alt="" /></a>
+                            <h3> Classification of Urdu News Articles </h3>
+                            <p>This project explores supervised machine learning techniques to classify Urdu-language news articles into five predefined categories: entertainment, business, sports, science-technology, and international. Using data scraped from prominent Urdu news websites, a dataset of 2,750 articles was prepared, involving extensive preprocessing steps such as text normalization, lemmatization, and tokenization.
+
+                                Three models were implemented and evaluated: Multinomial Naive Bayes (MNB), Logistic Regression, and Neural Networks. MNB provided a simple and effective baseline, achieving an accuracy of 96.55%, while Logistic Regression offered robust classification with a 95.27% accuracy. The Neural Network outperformed both, achieving an impressive accuracy of 97.45% through advanced sequential modeling with dropout layers to prevent overfitting.
+                                
+                                Performance was assessed using accuracy, precision, recall, and F1 scores, with confusion matrices providing insights into misclassifications. The project highlights the potential of machine learning for natural language processing in underrepresented languages like Urdu, while identifying limitations such as reliance on traditional models and the lack of contextual semantic understanding.   </p>
+                            
+                        </section>
+						<section id="content" class="two-column">
+							<div class="column">
+								<a href="#" class="image fit"><img src="images/9.png" alt="" /></a>
+								<h3>Project Report</h3>
+								<p>
+									This paper aims to transform unstructured Urdu news data into categorized information, enabling a more personalized and relevant news experience. Data was collected by scraping articles from prominent Urdu news websites and categorized into predefined segments. Three machine learning models were implemented to classify the articles.</p>
+									
+								<ul class="actions">
+									<a href="images/Report.pdf" class="button">Read more</a>
+
+
+									
+								</ul>
+							</div>
+							<div class="column">
+								<a href="#" class="image fit"><img src="images/8.png" alt="" /></a>
+								<h3>Web Scraping</h3>
+                                <p>The notebook features a `NewsScraper` class for scraping news articles from Urdu websites like Geo, Jang, Express, Dunya, and Dawn. It extracts headlines, links, and content from categories such as entertainment and business, organizing the data into dataFrames. Each method is tailored to the structure of its respective website, with error handling and logging.</p>
+                                
+                                <ul class="actions">
+									<li><a href="scraping.html" class="button">Notebook</a></li>
+								</ul>
+							</div>
+						</section>
+						<br>
+						<section id="content" class="two-column">
+							<div class="column">
+								<a href="#" class="image fit"><img src="images/7.png" alt="" /></a>
+								<h3>Data Analysis</h3>
+								<p>
+									The notebook explores the complete dataset from scraping, focusing on the `gold_label` column. Using Pandas and Matplotlib, it calculates the number of unique values and their counts, providing insights into label distribution. A bar chart visualizes the label frequencies for clearer interpretation. </p>
+                                <br>
+								<ul class="actions">
+									<li><a href="datanal.html" class="button">Notebook</a></li>
+								</ul>
+							</div>
+							<div class="column">
+								<a href="#" class="image fit"><img src="images/5.png" alt="" /></a>
+								<h3>Multinomial Naive Bayes</h3>
+								<p>Our first model classifies a dataset of Urdu-language text articles using both a manual implementation of Multinomial Naive Bayes (MNB) and Scikit-learn's MNB model. The dataset is split and the model is trained and evaluated on this. Metrics like accuracy, precision, recall, F1 score, and confusion matrices are calculated to assess performance. </p>
+								<ul class="actions">
+									<li><a href="bayes.html" class="button">Notebook</a></li>
+								</ul>
+							</div>
+						</section>
+						<br>
+						<section id="content" class="two-column">
+							<div class="column">
+								<a href="#" class="image fit"><img src="images/4.png" alt="" /></a>
+								<h3>Logistic Regression</h3>
+								<p>
+                                    Our second model preprocesses and classifies a dataset of Urdu-language text articles using both a manual implementation of Logisitic Regression and Scikit-learn's version of the model. The dataset is split and evaluated and the results from the manual implementation are compared with those from Scikit-learn to ensure consistency.
+									</p>
+									
+								<ul class="actions">
+									<li><a href="logi.html" class="button">Notebook</a></li>
+								</ul>
+							</div>
+							<div class="column">
+								<a href="#" class="image fit"><img src="images/6.png" alt="" /></a>
+								<h3>Neural Networks</h3>
+								<p>Our third model classifies a dataset of Urdu-language text articles using a manual implementation of a simple sequential Neural Network. The dataset is split and the model is trained and evaluated on this. Metrics like accuracy, precision, recall, F1 score, and confusion matrices are calculated to assess performance. </p>
+									
+								<ul class="actions">
+									<li><a href="neural.html" class="button">Notebook</a></li>
+								</ul>
+							</div>
+						</section>
+						
+					</div>
+				</div>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/samie-ahmad-b7676b216/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://www.instagram.com/samie_visuals/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://github.com/samiemirza" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.pinterest.com/samieahmad/" class="icon brands alt fa-pinterest"><span class="label">Pinterest</span></a></li>
+						<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Samie Ahmad. All rights reserved.</li>
+					</ul>
+				</footer>
+
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
